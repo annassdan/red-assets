@@ -16,6 +16,7 @@ new Vue({
     state: {
       homepage: true,
       search: false,
+      headerTitle: 'Graphics Engine'
     },
     mutations: {
       setHomepage(state, props) {
@@ -23,6 +24,9 @@ new Vue({
       },
       setSearch(state, props) {
         state.search = props;
+      },
+      setHeaderTitle(state, props) {
+        state.headerTitle = props;
       },
     },
     actions: {},

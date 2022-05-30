@@ -45,8 +45,8 @@
           </button>
 
           <div v-if="!$store.state.search">
-            <h4 v-if="$store.state.homepage" class="red-title text-lg font-medium">Graphics Engine</h4>
-            <h4 v-if="!$store.state.homepage" class="red-title text-base">Graphics Engine</h4>
+            <h4 v-if="$store.state.homepage" class="red-title text-lg font-medium">{{ $store.state.headerTitle }}</h4>
+            <h4 v-if="!$store.state.homepage" class="red-title text-base">{{ $store.state.headerTitle }}</h4>
           </div>
         </div>
 
@@ -108,6 +108,7 @@ export default {
     },
     backHomepage: function () {
       this.$store.commit('setHomepage', true);
+      this.$store.commit('setHeaderTitle', 'Graphic Engine');
       this.$router.push('/');
     },
     myMenu: function () {
