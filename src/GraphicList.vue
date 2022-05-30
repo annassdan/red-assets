@@ -101,6 +101,8 @@ export default {
   name: 'GraphicList',
   methods: {
     gotoPanjangBerat: function () {
+      this.$store.commit('setHomepage', false);
+      this.$store.commit('setSearch', false);
       this.$router.push('/panjang-berat');
     }
   }

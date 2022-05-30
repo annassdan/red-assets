@@ -23,7 +23,7 @@
               <input
                   type="text"
                   id="tahun"
-                  class="w-full p-4 pr-12 text-xs border-gray-200 rounded-lg shadow-sm"
+                  class="w-full py-3 px-4 text-xs border-gray-200 rounded-lg shadow-sm"
                   placeholder="Inputkan tahun"
               />
             </div>
@@ -36,7 +36,7 @@
               <input
                   type="text"
                   id="spesies"
-                  class="w-full p-4 pr-12 text-xs border-gray-200 rounded-lg shadow-sm"
+                  class="w-full py-3 px-4 text-xs border-gray-200 rounded-lg shadow-sm"
                   placeholder="Inputkan nama spesies"
               />
             </div>
@@ -49,7 +49,7 @@
               <input
                   type="text"
                   id="wpp"
-                  class="w-full p-4 pr-12 text-xs border-gray-200 rounded-lg shadow-sm"
+                  class="w-full py-3 px-4 text-xs border-gray-200 rounded-lg shadow-sm"
                   placeholder="Pilih WPP"
               />
             </div>
@@ -62,7 +62,7 @@
               <input
                   type="text"
                   id="lokasi"
-                  class="w-full p-4 pr-12 text-xs border-gray-200 rounded-lg shadow-sm"
+                  class="w-full py-3 px-4 text-xs border-gray-200 rounded-lg shadow-sm"
                   placeholder="Inputkan lokasi pendaratan"
               />
             </div>
